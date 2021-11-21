@@ -13,7 +13,7 @@ def get_site(request):
         site = request.data.get('data')
         url = "https://find-any-ip-address-or-domain-location-world-wide.p.rapidapi.com/iplocation"
 
-        querystring = {"ip": site, "apikey": "873dbe322aea47f89dcf729dcc8f60e8"}
+        querystring = {"ip": site, "apikey": "Your Api Key"}
 
         headers = {
             'x-rapidapi-host': "find-any-ip-address-or-domain-location-world-wide.p.rapidapi.com",
